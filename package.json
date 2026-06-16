@@ -3,7 +3,8 @@
     "predev": "npm install",
     "dev": "vite --host 127.0.0.1 --open",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
